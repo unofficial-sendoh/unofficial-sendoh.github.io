@@ -3,7 +3,7 @@ layout: post
 title: Implement a Heap Using Dynamic Array
 ---
 
-```
+```cpp
 #include <vector>
 #include <optional>
 using namespace std;
