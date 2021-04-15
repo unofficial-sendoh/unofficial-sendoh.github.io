@@ -3,7 +3,7 @@ layout: post
 title: Implement a Heap Using Dynamic Array
 ---
 
-```cpp
+{{ "{% highlight c++ " }}%}  
 #include <vector>
 #include <optional>
 using namespace std;
@@ -68,4 +68,4 @@ private:
         }
     }
 };
-```
+{{ "{% endhighlight " }}%}  
