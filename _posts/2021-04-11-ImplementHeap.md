@@ -56,7 +56,7 @@ private:
         int left_index = index * 2;
         int right_index = index * 2 + 1;
       
-        if (left_index < container_size && right_index < container_size && m_container[index] < m_container[right_index]) {
+        if (left_index < container_size && right_index < container_size && m_container[index] < m_container[right_index] && m_container[left_index] < m_container[right_index]) {
             swap(m_container[right_index], m_container[index]);
             heapify(right_index);
             return;
