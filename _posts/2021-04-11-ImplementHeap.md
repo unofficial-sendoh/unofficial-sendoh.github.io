@@ -3,7 +3,7 @@ layout: post
 title: Implement a Heap Using Dynamic Array
 ---
 
-{% highlight c++ %}  
+```cpp 
 #include <vector>
 #include <optional>
 using namespace std;
@@ -54,18 +54,19 @@ private:
     void heapify(int index) {
         int container_size = m_container.size();
         int left_index = index * 2;
-        if (left_index < container_size &&
-            m_container[index] < m_container[left_index]) {
+        int right_index = index * 2 + 1;
+      
+        if (left_index < container_size && right_index < container_size && m_container[index] < m_container[right_index]) {
+            swap(m_container[right_index], m_container[index]);
+            heapify(right_index);
+            return;
+        }
+            
+        if (left_index < container_size && m_container[index] < m_container[left_index]) {
             swap(m_container[left_index], m_container[index]);
             heapify(left_index);
         }
 
-        int right_index = index * 2 + 1;
-        if (right_index < container_size &&
-            m_container[index] < m_container[right_index]) {
-            swap(m_container[right_index], m_container[index]);
-            heapify(right_index);
-        }
     }
 };
-{% endhighlight %}  
+``` 
