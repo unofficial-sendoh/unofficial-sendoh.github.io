@@ -2,7 +2,7 @@
 layout: post
 title: Implement a Heap Using Dynamic Array
 ---
-
+<link href="github.css" rel="stylesheet" >
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GI7CriPmU_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ```cpp 
