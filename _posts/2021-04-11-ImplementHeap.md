@@ -3,6 +3,8 @@ layout: post
 title: Implement a Heap Using Dynamic Array
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GI7CriPmU_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ```cpp 
 #include <vector>
 #include <optional>
