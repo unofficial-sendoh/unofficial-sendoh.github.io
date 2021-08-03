@@ -84,6 +84,10 @@ SharedPtr<T>& SharedPtr<T>::operator=(const SharedPtr<T>& another_ptr) {
     clean_up();        
     m_count = another_ptr.m_count;
     m_data = another_ptr.m_data;
+
+    if (nullptr != another_ptr.m_data) {
+        (*m_count)++;
+    }
     return *this;
 }
 
