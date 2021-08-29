@@ -4,6 +4,9 @@ title: Implement a Heap Using Dynamic Array
 ---
 <link href="github.css" rel="stylesheet" >
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GI7CriPmU_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=250166464&bvid=BV1Uv411A7GU&cid=398789482&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ```cpp 
 #include <vector>
 #include <optional>
@@ -71,6 +74,3 @@ private:
     }
 };
 ``` 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GI7CriPmU_M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=250166464&bvid=BV1Uv411A7GU&cid=398789482&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
