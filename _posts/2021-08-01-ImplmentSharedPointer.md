@@ -101,4 +101,5 @@ SharedPtr<T>&  SharedPtr<T>::operator=(SharedPtr<T>&& another_ptr) {
     another_ptr.m_count = nullptr;
     return *this;
 }
+    
 {% endhighlight %}
