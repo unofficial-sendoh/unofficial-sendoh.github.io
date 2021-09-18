@@ -4,7 +4,7 @@ title: HackerRank Map Reduce - Word Counts
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DY-9hk1rHRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-{% highlight cpp %}
+{% highlight python %}
 # This template is based on the framework supplied for a similar challenge, in a Coursera Data Science course: https://www.coursera.org/course/datasci
 # And the code supplied here: https://github.com/uwescience/datasci_course_materials/blob/master/assignment3/wordcount.py
 import json
