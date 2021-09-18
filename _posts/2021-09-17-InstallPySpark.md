@@ -33,4 +33,5 @@ rdd_after_map=rdd.map(lambda x: (x,1))
 print(rdd_after_map.collect())
 rdd_after_reduce = rdd_after_map.reduceByKey(lambda x, y: x + y)
 print(rdd_after_reduce.collect())
+
 {% endhighlight %}
